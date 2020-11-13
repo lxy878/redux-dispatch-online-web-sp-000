@@ -12,7 +12,7 @@ let action = {type: 'INCREASE_COUNT'}
 
 function dispatch(action){
   state = changeState(action)
-  return state
+  render()
 }
 
 function render(){
