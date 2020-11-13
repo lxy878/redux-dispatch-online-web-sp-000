@@ -18,3 +18,5 @@ function dispatch(action){
 function render(){
   document.body.textContent = state.count
 }
+
+render()
