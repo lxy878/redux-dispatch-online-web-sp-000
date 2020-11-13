@@ -11,7 +11,7 @@ let state = {count: 0}
 let action = {type: 'INCREASE_COUNT'}
 
 function dispatch(action){
-  state = changeState(action)
+  state = changeState(state, action)
   render()
 }
 
